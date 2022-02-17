@@ -1,8 +1,46 @@
 //
 // Typography
 //
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
-$body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+
+@font-face {
+  font-family: 'SDMontserrat';
+  src: url('https://assets.website-files.com/5ecfe3add0194393eabdf182/5f668d5803a8b2b7b7897594_Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SDMontserrat';
+  src: url('https://assets.website-files.com/5ecfe3add0194393eabdf182/5f66906e94338c4c4562f131_Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SDMontserrat';
+  src: url('https://assets.website-files.com/5ecfe3add0194393eabdf182/5f66907e3f0b547011b942ac_Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SDMontserrat';
+  src: url('https://assets.website-files.com/5ecfe3add0194393eabdf182/5f66928d40354b5f38a80c27_Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-display: swap;
+}
+
+$body-font-family: "SDMontserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default; // Base font-size for rems
@@ -50,22 +88,22 @@ $purple-100: #5e41d0 !default;
 $purple-200: #4e26af !default;
 $purple-300: #381885 !default;
 
-$blue-000: #2c84fa !default;
-$blue-100: #2869e6 !default;
+$blue-000: #00b7FF !default;
+$blue-100: #264D99 !default;
 $blue-200: #264caf !default;
 $blue-300: #183385 !default;
 
-$green-000: #41d693 !default;
+$green-000: #00965E !default;
 $green-100: #11b584 !default;
 $green-200: #009c7b !default;
 $green-300: #026e57 !default;
 
-$yellow-000: #ffeb82 !default;
+$yellow-000: #FFC72C !default;
 $yellow-100: #fadf50 !default;
 $yellow-200: #f7d12e !default;
 $yellow-300: #e7af06 !default;
 
-$red-000: #f77e7e !default;
+$red-000: #E40046 !default;
 $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
